@@ -1,0 +1,17 @@
+{
+  "vocab": 2048,
+  "width": 320,
+  "heads": 4,
+  "depth": 6,
+  "context": 256,
+  "xsa_projection": true,
+  "dropout": 0.1,
+  "cache_mix": 0.04,
+  "cache_theta": 12.0,
+  "moe": {
+    "num_experts": 4,
+    "expert_hidden": 320,
+    "top_k": 2,
+    "ffn": "swiglu"
+  }
+}

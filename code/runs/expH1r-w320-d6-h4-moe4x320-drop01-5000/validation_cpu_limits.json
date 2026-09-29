@@ -1,0 +1,40 @@
+{
+  "bpb": 1.5117334002342637,
+  "token_ppl": 24.39135979932795,
+  "nll_nats": 1202943.4332382286,
+  "targets": 376599,
+  "utf8_bytes": 1148007,
+  "seconds": 21.401683500000217,
+  "split": "validation",
+  "precision": "fp32",
+  "checkpoint": "runs\\expH1r-w320-d6-h4-moe4x320-drop01-5000\\best_checkpoint.pt",
+  "checkpoint_config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 4,
+    "depth": 6,
+    "context": 256,
+    "xsa_projection": true,
+    "dropout": 0.1,
+    "moe": {
+      "num_experts": 4,
+      "expert_hidden": 320,
+      "top_k": 2,
+      "ffn": "swiglu"
+    }
+  },
+  "checkpoint_sha256": "9e01d46317e4c1e2c08565cc4983a3ba07b131adf7eedc37570adcc244787a95",
+  "implementation_sha256": "3420ac2af194108d5910ae08d77dae3139ef0070ec6afe69486a0aef3a5182bf",
+  "student_sha256": "3420ac2af194108d5910ae08d77dae3139ef0070ec6afe69486a0aef3a5182bf",
+  "ngram_sha256": "b5f29501a0e9b01970870923b704f3c74100dcc080014c6027df6aa5ac6dd0c8",
+  "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+  "asset_bytes": 44648713,
+  "asset_mib": 42.58033084869385,
+  "peak_working_set_bytes": 1999953920,
+  "peak_working_set_gib": 1.8626022338867188,
+  "baseline_cpu_seconds": 5.92,
+  "cpu_limit_seconds": 29.6,
+  "within_time_5x": true,
+  "within_ram_4gib": true,
+  "within_assets_64mib": true
+}

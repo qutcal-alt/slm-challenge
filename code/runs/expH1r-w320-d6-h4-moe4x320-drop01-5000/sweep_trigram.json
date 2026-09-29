@@ -1,0 +1,71 @@
+{
+  "checkpoint": "runs\\expH1r-w320-d6-h4-moe4x320-drop01-5000\\best_checkpoint.pt",
+  "mode": "trigram",
+  "seconds": 2.9081523999993806,
+  "best": {
+    "mode": "trigram",
+    "lambda": 0.08,
+    "bpb": 1.5016682182573795,
+    "nll_nats": 1194934.1873212142,
+    "targets": 376599,
+    "utf8_bytes": 1148007
+  },
+  "rows": [
+    {
+      "mode": "trigram",
+      "lambda": 0.0,
+      "bpb": 1.5128133467494662,
+      "nll_nats": 1203802.7875188908,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.05,
+      "bpb": 1.5023317431056806,
+      "nll_nats": 1195462.1791344073,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.08,
+      "bpb": 1.5016682182573795,
+      "nll_nats": 1194934.1873212142,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.1,
+      "bpb": 1.5020802320230904,
+      "nll_nats": 1195262.04225502,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.12,
+      "bpb": 1.5030038628210358,
+      "nll_nats": 1195997.010208333,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.15,
+      "bpb": 1.5051732156006878,
+      "nll_nats": 1197723.2462498564,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    },
+    {
+      "mode": "trigram",
+      "lambda": 0.2,
+      "bpb": 1.5104962573509069,
+      "nll_nats": 1201958.9918629962,
+      "targets": 376599,
+      "utf8_bytes": 1148007
+    }
+  ]
+}

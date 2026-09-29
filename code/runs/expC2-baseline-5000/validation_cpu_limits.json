@@ -1,0 +1,32 @@
+{
+  "bpb": 1.7429274266776706,
+  "token_ppl": 39.754863954677795,
+  "nll_nats": 1386913.26275374,
+  "targets": 376599,
+  "utf8_bytes": 1148007,
+  "seconds": 4.804210900001635,
+  "split": "validation",
+  "precision": "fp32",
+  "checkpoint": "runs\\expC2-baseline-5000\\checkpoint.pt",
+  "checkpoint_config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "checkpoint_sha256": "0a48a72cf95ee72efc8402aab3d44090c447bfe3e581c82256c7ed06d08d86d4",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "student_sha256": "3420ac2af194108d5910ae08d77dae3139ef0070ec6afe69486a0aef3a5182bf",
+  "ngram_sha256": "b5f29501a0e9b01970870923b704f3c74100dcc080014c6027df6aa5ac6dd0c8",
+  "evaluator_sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+  "asset_bytes": 4370805,
+  "asset_mib": 4.1683244705200195,
+  "peak_working_set_bytes": 1912602624,
+  "peak_working_set_gib": 1.78125,
+  "baseline_cpu_seconds": 5.92,
+  "cpu_limit_seconds": 29.6,
+  "within_time_5x": true,
+  "within_ram_4gib": true,
+  "within_assets_64mib": true
+}

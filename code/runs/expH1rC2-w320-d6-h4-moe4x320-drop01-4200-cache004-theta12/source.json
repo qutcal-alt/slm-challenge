@@ -1,0 +1,26 @@
+{
+  "source_checkpoint": "runs\\expH1r-w320-d6-h4-moe4x320-drop01-5000\\best_checkpoint.pt",
+  "source_sha256": "9e01d46317e4c1e2c08565cc4983a3ba07b131adf7eedc37570adcc244787a95",
+  "best_step": 4200,
+  "cache_mix": 0.04,
+  "cache_theta": 12.0,
+  "sweep_best_bpb": 1.494517287465972,
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 4,
+    "depth": 6,
+    "context": 256,
+    "xsa_projection": true,
+    "dropout": 0.1,
+    "moe": {
+      "num_experts": 4,
+      "expert_hidden": 320,
+      "top_k": 2,
+      "ffn": "swiglu"
+    },
+    "cache_mix": 0.04,
+    "cache_theta": 12.0
+  },
+  "checkpoint_sha256": "cc3b4bfc717e23ccb0322e37e1b4696631edb529b4928598f67849713e9cb96d"
+}
